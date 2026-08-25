@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Fenice Sushi One - Ristorante giapponese e cinese a Verona</title>
+<meta name="description" content="La Fenice Sushi One: sushi fresco e cucina asiatica in Via Roveggia 9/11 a Verona. Sala, dehors, asporto e consegna a domicilio. Aperti tutti i giorni.">
+<meta name="theme-color" content="#FF6100">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+
+<!-- Open Graph -->
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="La Fenice Sushi One - Ristorante a Verona">
+<meta property="og:description" content="Sushi fresco e cucina asiatica nella città dell'amore. Via Roveggia 9/11, Verona.">
+<meta property="og:image" content="assets/img/hero-uramaki.webp">
+<meta property="og:locale" content="it_IT">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "La Fenice Sushi One Ristorante",
+  "servesCuisine": ["Giapponese", "Cinese", "Sushi", "Asiatica"],
+  "priceRange": "10-20 EUR",
+  "telephone": "+390454937429",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Roveggia 9/11",
+    "postalCode": "37136",
+    "addressLocality": "Verona",
+    "addressRegion": "VR",
+    "addressCountry": "IT"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "reviewCount": "72"
+  },
+  "openingHours": "Mo-Su 10:30-14:30, Mo-Su 18:00-22:00"
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Vai al contenuto</a>
+
+<!-- ============ TOPBAR ============ -->
+<div class="topbar">
+  <div class="wrap topbar__in">
+    <p class="topbar__item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+      Via Roveggia 9/11, Verona
+    </p>
+    <p class="topbar__item topbar__item--hide">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      Aperti 7 giorni su 7 &middot; 10:30-14:30 / 18:00-22:00
+    </p>
+    <p class="topbar__item topbar__item--flag"><span class="flag">Anteprima</span><span class="topbar__long">&middot; sito dimostrativo</span></p>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="wrap header__in">
+    <a class="brand" href="#top" aria-label="La Fenice Sushi One - torna all'inizio">
+      <img src="assets/img/logo.png" width="376" height="137" alt="La Fenice Sushi One Ristorante">
+    </a>
+
+    <nav class="nav" aria-label="Navigazione principale">
+      <a href="#specialita">Specialit&agrave;</a>
+      <a href="#menu">Men&ugrave;</a>
+      <a href="#ristorante">Il ristorante</a>
+      <a href="#galleria">Galleria</a>
+      <a href="#recensioni">Recensioni</a>
+      <a href="#contatti">Dove siamo</a>
+    </nav>
+
+    <div class="header__cta">
+      <a class="icon-btn" href="tel:+390454937429" aria-label="Chiama il ristorante allo 045 4937429">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+      </a>
+      <a class="btn btn--sm" href="#ordina">Ordina online</a>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="Apri il menu di navigazione" aria-expanded="false" aria-controls="mobile-menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MENU MOBILE ============ -->
+<div class="mobile-menu on-dark" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu di navigazione" hidden>
+  <div class="mobile-menu__top">
+    <img src="assets/img/logo.png" width="376" height="137" alt="La Fenice Sushi One Ristorante">
+    <button class="icon-btn" id="menu-close" type="button" aria-label="Chiudi il menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <nav aria-label="Navigazione mobile">
+    <a href="#specialita">Specialit&agrave;</a>
+    <a href="#menu">Men&ugrave;</a>
+    <a href="#ristorante">Il ristorante</a>
+    <a href="#galleria">Galleria</a>
+    <a href="#recensioni">Recensioni</a>
+    <a href="#contatti">Dove siamo</a>
+  </nav>
+  <div class="mobile-menu__foot">
+    <a class="btn" href="#ordina">Ordina online</a>
+    <a class="btn btn--ghost" href="tel:+390454937429">Chiama 045 4937429</a>
+    <p class="mobile-menu__note">Via Roveggia 9/11, Verona &middot; aperti tutti i giorni<br>10:30-14:30 &middot; 18:00-22:00</p>
+  </div>
+</div>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ============ HERO ============ -->
+<section class="hero on-dark">
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow reveal">Sushi One &middot; Ristorante &middot; Verona</p>
+      <h1 class="hero__title reveal" style="--d:60ms">
+        <span>Sushi</span>
+        <span>&amp; cucina</span>
+        <span class="accent">asiatica</span>
+      </h1>
+      <p class="hero__lead reveal" style="--d:120ms">
+        Pesce crudo tagliato al momento, ravioli al vapore, wok e brodi della
+        tradizione cinese. Dal 2024 in Via Roveggia, a due passi dalla Fiera:
+        in sala, nel dehors o a casa tua.
+      </p>
+
+      <div class="hero__actions reveal" style="--d:180ms">
+        <a class="btn" href="#ordina">
+          Ordina online
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+        </a>
+        <a class="btn btn--ghost" href="tel:+390454937429">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          Prenota un tavolo
+        </a>
+      </div>
+
+      <div class="hero__meta reveal" style="--d:240ms">
+        <p class="rating">
+          <span class="rating__stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          </span>
+          <span class="rating__text"><b>4,6</b> su 5<br>72 recensioni Google</span>
+        </p>
+        <p class="hero__hours">Aperti tutti i giorni<br><b>10:30-14:30 &middot; 18:00-22:00</b></p>
+      </div>
+
+      <p class="scroll-cue">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14m7-7-7 7-7-7"/></svg>
+        Scorri per scoprire
+      </p>
+    </div>
+
+    <div class="hero__media reveal" style="--d:300ms">
+      <img class="shot-main" src="assets/img/hero-uramaki.webp" width="680" height="510" alt="Due taglieri di uramaki al salmone e gambero con salsa teriyaki, serviti su piatti azzurri">
+      <img class="shot-float" src="assets/img/xiaolongbao.webp" width="657" height="510" alt="Xiao long bao appena cotti nel cestello di bambù" loading="lazy">
+      <p class="hero__stamp" aria-hidden="true"><span>Pesce</span><span>fresco</span><span>ogni giorno</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <div class="marquee__group">
+      <span class="marquee__item">Nigiri</span><span class="marquee__item">Sashimi</span>
+      <span class="marquee__item">Uramaki</span><span class="marquee__item">Jiaozi</span>
+      <span class="marquee__item">Poke</span><span class="marquee__item">Bento</span>
+      <span class="marquee__item">Zuppe</span><span class="marquee__item">Teppanyaki</span>
+      <span class="marquee__item">Tempura</span><span class="marquee__item">Asporto</span>
+    </div>
+    <div class="marquee__group">
+      <span class="marquee__item">Nigiri</span><span class="marquee__item">Sashimi</span>
+      <span class="marquee__item">Uramaki</span><span class="marquee__item">Jiaozi</span>
+      <span class="marquee__item">Poke</span><span class="marquee__item">Bento</span>
+      <span class="marquee__item">Zuppe</span><span class="marquee__item">Teppanyaki</span>
+      <span class="marquee__item">Tempura</span><span class="marquee__item">Asporto</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SPECIALITA ============ -->
+<section class="section" id="specialita">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Quello che facciamo</p>
+        <h2 class="h-section reveal" style="--d:60ms">Due cucine, <em>una tavola</em></h2>
+      </div>
+      <p class="lead reveal" style="--d:120ms">
+        Il banco sushi lavora salmone, tonno e branzino a vista. La cucina calda porta
+        in tavola i piatti di casa: ravioli, wok, brodi e spaghetti saltati.
+      </p>
+    </div>
+
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card__media">
+          <img src="assets/img/post-nigiri-crop.jpg" width="870" height="652" alt="Nigiri di salmone, tonno e gambero su piatto di ceramica scura" loading="lazy">
+          <span class="card__num">01</span>
+        </div>
+        <div class="card__body">
+          <h3>Nigiri &amp; Sashimi</h3>
+          <p>Tagli di salmone, tonno e branzino serviti al momento, singoli o nei misti da condividere.</p>
+          <p class="card__tag">Crudo &middot; Cotto &middot; Misto</p>
+        </div>
+      </article>
+
+      <article class="card reveal" style="--d:60ms">
+        <div class="card__media">
+          <img src="assets/img/tagliere-gamberi.webp" width="382" height="510" alt="Roll di gambero con maionese e salsa teriyaki serviti su tagliere di legno" loading="lazy">
+          <span class="card__num">02</span>
+        </div>
+        <div class="card__body">
+          <h3>Roll speciali</h3>
+          <p>Uramaki, hosomaki e le nostre firme: tiger, vulcano, malibu, tataki e unagi roll.</p>
+          <p class="card__tag">La parte creativa</p>
+        </div>
+      </article>
+
+      <article class="card reveal" style="--d:120ms">
+        <div class="card__media">
+          <img src="assets/img/xiaolongbao.webp" width="657" height="510" alt="Xiao long bao al vapore nel cestello di bambù su foglia verde" loading="lazy">
+          <span class="card__num">03</span>
+        </div>
+        <div class="card__body">
+          <h3>Ravioli &amp; Dim Sum</h3>
+          <p>Jiaozi alla griglia o al vapore, ebi shumai, ravioli in cristallo e xiao long bao.</p>
+          <p class="card__tag">Tradizione cinese</p>
+        </div>
+      </article>
+
+      <article class="card reveal" style="--d:180ms">
+        <div class="card__media">
+          <img src="assets/img/post-poke-crop.jpg" width="600" height="450" alt="Poke bowl con salmone, tonno, mango, edamame e ravanello" loading="lazy">
+          <span class="card__num">04</span>
+        </div>
+        <div class="card__body">
+          <h3>Poke Bowl</h3>
+          <p>Riso, pesce, frutta fresca ed edamame in una ciotola. Anche da asporto, pronta in pochi minuti.</p>
+          <p class="card__tag">Pranzo veloce</p>
+        </div>
+      </article>
+
+      <article class="card reveal" style="--d:240ms">
+        <div class="card__media">
+          <img src="assets/img/post-pollo-crop.jpg" width="880" height="660" alt="Pollo saltato con bambù, funghi e verdure servito in piatto fondo" loading="lazy">
+          <span class="card__num">05</span>
+        </div>
+        <div class="card__body">
+          <h3>Wok, Bento &amp; Secondi</h3>
+          <p>Manzo alla piastra, gamberi al sale e pepe, pollo al curry e i bento completi per il pranzo.</p>
+          <p class="card__tag">Cucina calda</p>
+        </div>
+      </article>
+
+      <article class="card reveal" style="--d:300ms">
+        <div class="card__media">
+          <img src="assets/img/post-spaghetti-gamberi-crop.jpg" width="880" height="660" alt="Spaghetti di soia saltati con gamberi, carote e zucchine" loading="lazy">
+          <span class="card__num">06</span>
+        </div>
+        <div class="card__body">
+          <h3>Zuppe &amp; Spaghetti</h3>
+          <p>Brodi lunghi di manzo, costine o frutti di mare, yaki udon, yaki soba e spaghetti di riso.</p>
+          <p class="card__tag">Comfort food</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MENU IN PREPARAZIONE ============ -->
+<section class="section on-dark menu-soon" id="menu">
+  <div class="wrap menu-soon__in">
+    <p class="badge-soon reveal"><span class="pulse" aria-hidden="true"></span> Men&ugrave; in preparazione</p>
+    <p class="eyebrow reveal" style="--d:60ms">La carta</p>
+    <h2 class="h-section reveal" style="--d:100ms">Il men&ugrave; completo <em>arriva presto</em></h2>
+    <p class="lead reveal" style="--d:140ms">
+      Stiamo fotografando i piatti e rivedendo la carta uno per uno, così da pubblicare
+      descrizioni, allergeni e prezzi sempre aggiornati. Nel frattempo trovi tutto il
+      men&ugrave; sulle app di consegna.
+    </p>
+
+    <div class="skeleton reveal" style="--d:180ms" aria-hidden="true">
+      <div class="skeleton__row">
+        <span class="skeleton__thumb shimmer"></span>
+        <span class="skeleton__lines">
+          <span class="skeleton__bar skeleton__bar--short shimmer"></span>
+          <span class="skeleton__bar skeleton__bar--long shimmer"></span>
+        </span>
+        <span class="skeleton__price shimmer"></span>
+      </div>
+      <div class="skeleton__row">
+        <span class="skeleton__thumb shimmer"></span>
+        <span class="skeleton__lines">
+          <span class="skeleton__bar skeleton__bar--long shimmer"></span>
+          <span class="skeleton__bar skeleton__bar--short shimmer"></span>
+        </span>
+        <span class="skeleton__price shimmer"></span>
+      </div>
+      <div class="skeleton__row">
+        <span class="skeleton__thumb shimmer"></span>
+        <span class="skeleton__lines">
+          <span class="skeleton__bar skeleton__bar--short shimmer"></span>
+          <span class="skeleton__bar skeleton__bar--long shimmer"></span>
+        </span>
+        <span class="skeleton__price shimmer"></span>
+      </div>
+    </div>
+
+    <p class="eyebrow reveal" style="--d:220ms">Le sezioni che troverai</p>
+    <ul class="cat-list reveal" style="--d:240ms">
+      <li><span>Antipasti</span></li>
+      <li><span>Zuppe</span></li>
+      <li><span>Tartare</span></li>
+      <li><span>Temaki</span></li>
+      <li><span>Hosomaki</span></li>
+      <li><span>Uramaki</span></li>
+      <li><span>Carpacci</span></li>
+      <li><span>Poke</span></li>
+      <li><span>Nigiri</span></li>
+      <li><span>Sashimi</span></li>
+      <li><span>Sushi misti</span></li>
+      <li><span>Bento</span></li>
+      <li><span>Primi</span></li>
+      <li><span>Riso</span></li>
+      <li><span>Secondi</span></li>
+      <li><span>Tempura</span></li>
+      <li><span>Teppanyaki</span></li>
+      <li><span>Dolci</span></li>
+      <li><span>Bevande &amp; Vini</span></li>
+    </ul>
+
+    <div class="menu-soon__actions reveal" style="--d:280ms">
+      <a class="btn" href="#ordina">Vedi il men&ugrave; sulle app</a>
+      <a class="btn btn--ghost" href="https://wa.me/393773999979" target="_blank" rel="noopener">Chiedi su WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IL RISTORANTE ============ -->
+<section class="section" id="ristorante">
+  <div class="wrap story">
+    <div class="story__media reveal">
+      <img class="shot-a" src="assets/img/facciata.webp" width="382" height="510" alt="L'ingresso arancione de La Fenice Sushi One in Via Roveggia a Verona" loading="lazy">
+      <img class="shot-b" src="assets/img/dehors.webp" width="382" height="510" alt="Il dehors esterno con tavoli, sedie nere e ombrelloni" loading="lazy">
+    </div>
+
+    <div>
+      <p class="eyebrow reveal">Il ristorante</p>
+      <h2 class="h-section reveal" style="--d:60ms">Sushi fresco nella <em>città dell'amore</em></h2>
+      <p class="lead reveal" style="--d:120ms">
+        Siamo in Via Roveggia, nella Verona che lavora: uffici, Fiera, stazione a pochi minuti.
+        Dentro trovi una sala luminosa e un banco sushi a vista; fuori, un dehors ombreggiato
+        che d'estate diventa il posto giusto per un aperitivo con qualche nigiri.
+      </p>
+      <p class="reveal" style="--d:160ms">
+        In cucina convivono due mani: quella giapponese, che pesa il riso e taglia il pesce,
+        e quella cinese, che tira i ravioli e fa saltare il wok. Per questo la carta è lunga
+        e cambia con le stagioni, tra crudi, brodi caldi e piatti da condividere.
+      </p>
+
+      <div class="stats reveal" style="--d:200ms">
+        <div><b>4,6</b><span>Su Google</span></div>
+        <div><b>72</b><span>Recensioni</span></div>
+        <div><b>7/7</b><span>Sempre aperti</span></div>
+        <div><b>10-20&euro;</b><span>Spesa media</span></div>
+      </div>
+
+      <p style="margin-top:var(--space-5)" class="reveal">
+        <a class="link-arrow" href="#contatti">Come raggiungerci
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERIA ============ -->
+<section class="section" id="galleria" style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Galleria</p>
+        <h2 class="h-section reveal" style="--d:60ms">Dai nostri <em>tavoli</em></h2>
+      </div>
+      <p class="lead reveal" style="--d:120ms">
+        Foto scattate in sala dai nostri ospiti e dal nostro banco sushi.
+        Clicca su un'immagine per ingrandirla.
+      </p>
+    </div>
+
+    <div class="gallery reveal" id="gallery">
+      <button type="button" data-cap="Uramaki al salmone e gambero con salsa teriyaki">
+        <img src="assets/img/hero-uramaki.webp" width="680" height="510" alt="Uramaki al salmone e al gambero serviti su piatti azzurri" loading="lazy">
+      </button>
+      <button type="button" data-cap="Tavolata: sashimi, spaghetti saltati e zuppa">
+        <img src="assets/img/tavola-condivisa.webp" width="680" height="510" alt="Tavolata con sashimi, spaghetti saltati, zuppa e bao" loading="lazy">
+      </button>
+      <button type="button" data-cap="Roll di gambero su tagliere di legno">
+        <img src="assets/img/tagliere-gamberi.webp" width="382" height="510" alt="Due taglieri con roll di gambero, maionese e salsa" loading="lazy">
+      </button>
+      <button type="button" data-cap="Xiao long bao al vapore">
+        <img src="assets/img/xiaolongbao.webp" width="657" height="510" alt="Xiao long bao nel cestello di bambù" loading="lazy">
+      </button>
+      <button type="button" data-cap="Il dehors esterno">
+        <img src="assets/img/dehors.webp" width="382" height="510" alt="Tavoli esterni con ombrelloni e siepe verde" loading="lazy">
+      </button>
+      <button type="button" data-cap="Sashimi misto: salmone, tonno e branzino">
+        <img src="assets/img/sashimi-tavolo.jpg" width="1080" height="810" alt="Piatto di sashimi misto con germogli e ravanello" loading="lazy">
+      </button>
+      <button type="button" data-cap="Poke bowl, anche da asporto">
+        <img src="assets/img/post-poke-crop.jpg" width="600" height="450" alt="Poke bowl con salmone, tonno, mango ed edamame" loading="lazy">
+      </button>
+      <button type="button" data-cap="Hosomaki al salmone">
+        <img src="assets/img/post-hosomaki-crop.jpg" width="880" height="660" alt="Hosomaki al salmone su piatto rettangolare bianco" loading="lazy">
+      </button>
+      <button type="button" data-cap="Yaki udon, spiedini e roll all'anguilla">
+        <img src="assets/img/tavola-mix.webp" width="680" height="510" alt="Yaki udon, spiedini di calamaro e roll glassati" loading="lazy">
+      </button>
+      <button type="button" data-cap="Sashimi di salmone, tonno e branzino">
+        <img src="assets/img/post-sashimi-crop.jpg" width="660" height="495" alt="Sashimi misto su piatto bianco, fondo arancione" loading="lazy">
+      </button>
+      <button type="button" data-cap="Gamberi saltati con peperoni">
+        <img src="assets/img/post-gamberi-crop.jpg" width="860" height="645" alt="Gamberi saltati con peperoni e cipolla in salsa" loading="lazy">
+      </button>
+      <button type="button" data-cap="Via Roveggia 9/11, Verona">
+        <img src="assets/img/facciata.webp" width="382" height="510" alt="Insegna arancione del ristorante sulla facciata" loading="lazy">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RECENSIONI ============ -->
+<section class="section on-dark" id="recensioni">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Recensioni</p>
+        <h2 class="h-section reveal" style="--d:60ms">Cosa dicono <em>di noi</em></h2>
+      </div>
+      <p class="lead reveal" style="--d:120ms">
+        Recensioni pubblicate dai clienti sulla nostra scheda Google.
+      </p>
+    </div>
+
+    <div class="reviews">
+      <article class="review reveal">
+        <span class="rating__stars" aria-label="5 stelle su 5">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+        </span>
+        <blockquote>Tutto il cibo era gustoso e ben preparato. Abbiamo provato panini, gyoza, riso, pollo e maki. Quelli speciali erano eccellenti. Il servizio era veloce e le persone molto gentili.</blockquote>
+        <div class="review__who">
+          <span class="review__avatar" aria-hidden="true">J</span>
+          <span>
+            <span class="review__name">Josep B.</span><br>
+            <span class="review__src">Recensione Google</span>
+          </span>
+        </div>
+      </article>
+
+      <article class="review reveal" style="--d:80ms">
+        <span class="rating__stars" aria-label="5 stelle su 5">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+        </span>
+        <blockquote>Abbiamo visitato La Fenice Sushi tre volte e siamo sempre rimasti soddisfatti del cibo e del servizio. Personale molto cordiale e cibo delizioso.</blockquote>
+        <div class="review__who">
+          <span class="review__avatar" aria-hidden="true">A</span>
+          <span>
+            <span class="review__name">Antonina K.</span><br>
+            <span class="review__src">Recensione Google</span>
+          </span>
+        </div>
+      </article>
+
+      <article class="review reveal" style="--d:160ms">
+        <span class="rating__stars" aria-label="5 stelle su 5">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+        </span>
+        <blockquote>Cibo di un'elevata qualità, ingredienti freschi e combinazioni che avvolgono il palato in una coccola divina, complimenti!</blockquote>
+        <div class="review__who">
+          <span class="review__avatar" aria-hidden="true">V</span>
+          <span>
+            <span class="review__name">Valeria B.</span><br>
+            <span class="review__src">Recensione Google</span>
+          </span>
+        </div>
+      </article>
+    </div>
+
+    <div class="rating-big reveal">
+      <span class="rating-big__score">4,6</span>
+      <span>
+        <span class="rating__stars" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z"/></svg>
+        </span><br>
+        Media su <b>72 recensioni</b> Google
+      </span>
+      <a class="btn btn--ghost btn--sm" style="margin-left:auto" href="https://www.google.com/maps/search/?api=1&amp;query=La+Fenice+Sushi+One+Ristorante+Verona" target="_blank" rel="noopener">Leggi tutte le recensioni</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ORDINA ============ -->
+<section class="section" id="ordina">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Asporto e domicilio</p>
+        <h2 class="h-section reveal" style="--d:60ms">Ordina <em>dove vuoi</em></h2>
+      </div>
+      <p class="lead reveal" style="--d:120ms">
+        Consegniamo a Verona con i partner qui sotto, oppure prepariamo il tuo ordine
+        da ritirare in Via Roveggia.
+      </p>
+    </div>
+
+    <div class="order-grid">
+      <a class="order-card reveal" href="https://glovoapp.com/it/it/verona/stores/la-fenice-sushi-one-restaurant-ver" target="_blank" rel="noopener">
+        <span class="order-card__label">Consegna a domicilio</span>
+        <h3>Glovo</h3>
+        <p>Men&ugrave; completo e i pi&ugrave; venduti, consegna rapida in zona.</p>
+        <span class="order-card__go">Ordina su Glovo
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+        </span>
+      </a>
+
+      <a class="order-card reveal" style="--d:70ms" href="https://www.justeat.it/restaurants-la-fenice-sushi-one-verona-37136/menu" target="_blank" rel="noopener">
+        <span class="order-card__label">Consegna a domicilio</span>
+        <h3>Just Eat</h3>
+        <p>Sushi, poke, bento e cucina calda con pagamento online.</p>
+        <span class="order-card__go">Ordina su Just Eat
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+        </span>
+      </a>
+
+      <a class="order-card reveal" style="--d:140ms" href="https://deliveroo.it/it/menu/verona/verona-sud/la-fenice-sushi-one-ristorante-verona" target="_blank" rel="noopener">
+        <span class="order-card__label">Consegna a domicilio</span>
+        <h3>Deliveroo</h3>
+        <p>Tutta la carta, dai misti da 60 pezzi ai brodi caldi.</p>
+        <span class="order-card__go">Ordina su Deliveroo
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+        </span>
+      </a>
+
+      <a class="order-card order-card--accent reveal" style="--d:210ms" href="https://wa.me/393773999979" target="_blank" rel="noopener">
+        <span class="order-card__label">Ritiro in ristorante</span>
+        <h3>Asporto</h3>
+        <p>Scrivici su WhatsApp al 377 399 9979 oppure chiama: prepariamo tutto per l'orario che preferisci.</p>
+        <span class="order-card__go">Scrivi su WhatsApp
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTATTI ============ -->
+<section class="section" id="contatti" style="padding-top:0">
+  <div class="wrap contact">
+    <div>
+      <p class="eyebrow reveal">Dove siamo</p>
+      <h2 class="h-section reveal" style="--d:60ms">Via Roveggia 9/11, <em>Verona</em></h2>
+      <p class="lead reveal" style="--d:120ms">
+        Zona Verona Sud, vicino alla Fiera. Parcheggio libero in strada.
+      </p>
+
+      <dl class="info-list reveal" style="--d:160ms">
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <dt>Indirizzo</dt>
+            <dd><a href="https://www.google.com/maps/search/?api=1&amp;query=Via+Roveggia+9,+37136+Verona" target="_blank" rel="noopener">Via Roveggia 9/11, 37136 Verona (VR)</a></dd>
+          </div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <div>
+            <dt>Orari</dt>
+            <dd>Tutti i giorni<br>
+              <span class="muted">Pranzo 10:30-14:30 &middot; Cena 18:00-22:00</span></dd>
+          </div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          <div>
+            <dt>Telefono e prenotazioni</dt>
+            <dd><a href="tel:+390454937429">045 4937429</a></dd>
+          </div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+          <div>
+            <dt>WhatsApp</dt>
+            <dd><a href="https://wa.me/393773999979" target="_blank" rel="noopener">377 399 9979</a></dd>
+          </div>
+        </div>
+      </dl>
+
+      <p style="margin-top:var(--space-4)" class="reveal">
+        <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Via+Roveggia+9,+37136+Verona" target="_blank" rel="noopener">
+          Ottieni indicazioni
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+        </a>
+      </p>
+    </div>
+
+    <div class="map reveal" style="--d:120ms">
+      <iframe
+        title="Mappa: Via Roveggia 9, 37136 Verona"
+        src="https://www.google.com/maps?q=Via%20Roveggia%209%2C%2037136%20Verona&amp;output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <img src="assets/img/logo-white.png" width="376" height="137" alt="La Fenice Sushi One Ristorante">
+        <p>Ristorante giapponese e cinese a Verona.<br>Sala, dehors, asporto e consegna a domicilio.</p>
+      </div>
+
+      <div>
+        <h4>Naviga</h4>
+        <ul>
+          <li><a href="#specialita">Specialit&agrave;</a></li>
+          <li><a href="#menu">Men&ugrave;</a></li>
+          <li><a href="#ristorante">Il ristorante</a></li>
+          <li><a href="#galleria">Galleria</a></li>
+          <li><a href="#recensioni">Recensioni</a></li>
+          <li><a href="#ordina">Ordina online</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contatti</h4>
+        <ul>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Via+Roveggia+9,+37136+Verona" target="_blank" rel="noopener">Via Roveggia 9/11, Verona</a></li>
+          <li><a href="tel:+390454937429">045 4937429</a></li>
+          <li><a href="https://wa.me/393773999979" target="_blank" rel="noopener">WhatsApp 377 399 9979</a></li>
+          <li><a href="https://www.facebook.com/search/top?q=La%20Fenice%20Sushi%20One%20Ristorante" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>&copy; <span id="year">2026</span> La Fenice Sushi One Ristorante</span>
+      <span>Anteprima grafica - contenuti da confermare</span>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ============ BARRA AZIONI MOBILE ============ -->
+<nav class="actionbar" aria-label="Azioni rapide">
+  <a href="#ordina">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18l-1.6 9.6a2 2 0 0 1-2 1.7H6.6a2 2 0 0 1-2-1.7L3 6Z"/><path d="M8 6V4.5a4 4 0 0 1 8 0V6"/></svg>
+    <span>Ordina</span>
+  </a>
+  <a href="tel:+390454937429">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+    <span>Chiama</span>
+  </a>
+  <a href="https://wa.me/393773999979" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Via+Roveggia+9,+37136+Verona" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+    <span>Mappa</span>
+  </a>
+</nav>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Immagine ingrandita" hidden>
+  <button class="lightbox__btn lightbox__close" id="lb-close" type="button" aria-label="Chiudi immagine">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+  </button>
+  <button class="lightbox__btn lightbox__prev" id="lb-prev" type="button" aria-label="Immagine precedente">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+  </button>
+  <button class="lightbox__btn lightbox__next" id="lb-next" type="button" aria-label="Immagine successiva">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+  </button>
+  <figure>
+    <img id="lb-img" src="" alt="">
+    <figcaption class="lightbox__cap" id="lb-cap"></figcaption>
+  </figure>
+</div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
